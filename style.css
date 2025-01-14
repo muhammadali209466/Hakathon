@@ -1,0 +1,123 @@
+.header {
+  background-color: white;
+  border: 1px whitesmoke solid;
+  justify-content: space-between;
+  padding: 10px;
+}
+.Articles a {
+  padding: 10px;
+  color: black !important;
+  font-weight: bold;
+  text-decoration: none;
+}
+.Language i {
+  width: 20px;
+}
+.English {
+  text-align: center !important;
+  margin-top: 80px;
+}
+.English img {
+  width: 700px;
+}
+.APART {
+  text-align: center;
+  margin-top: 50px;
+}
+.APART h1 {
+  font-size: 75px;
+}
+
+.May {
+  text-align: center;
+  margin-top: 34px;
+}
+.NEW {
+  color: whitesmoke;
+  background-color: #bb3825;
+  border: #bb3825 solid 1px;
+  border-radius: 10px;
+  text-align: center;
+  width: 33px;
+}
+.Personalization h1 {
+  text-align: center;
+  font-weight: 900;
+}
+.Personalization h1:hover {
+  text-decoration: underline;
+}
+.by {
+  font-size: 18px;
+}
+.Gerry {
+  color: #2455c3;
+  font-weight: 700;
+}
+.Gerry:hover {
+  text-decoration: underline;
+}
+
+.Comments {
+  color: #2455c3;
+  font-weight: 200;
+}
+.Comments:hover {
+  text-decoration: underline;
+}
+.valued {
+  width: 1100px;
+  text-align: center;
+}
+
+.valued p {
+  font-size: 30px;
+}
+.Practice {
+  width: 1100px;
+  text-align: center;
+  
+  
+}
+.Practice h1{
+    font-weight: 900;
+}
+.Practice:hover {
+  text-decoration: underline;
+}
+.Ste{
+   color: #2455C3;
+}
+.Ste:hover{
+    text-decoration: underline;
+}
+.WebFebruary{
+    font-weight: 200;
+}
+.development{
+    width: 1100px;
+    background-color:#F0F0F0;
+    border: solid #F0F0F0;
+    border-radius: 10px;
+    padding:  10px ;
+}
+.Sponsership{
+    justify-content: space-evenly;
+    background-color: #E8E8E8;
+    border: solid  #E8E8E8;
+    height: 60px;
+}
+.Sponsership a{
+font-weight: 700;
+color: black;
+padding-left: 19px;
+text-decoration: none;
+}
+.Sponsership a:hover{
+text-decoration: none;
+color: black;
+}
+.Masthead a:hover{
+text-decoration: underline;
+color: black;
+}
