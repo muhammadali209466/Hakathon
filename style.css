@@ -1,3 +1,7 @@
+/* *{
+    font-family: "Noto Sans Georgian", serif !important;
+} */
+
 .header {
   background-color: white;
   border: 1px whitesmoke solid;
@@ -10,9 +14,34 @@
   font-weight: bold;
   text-decoration: none;
 }
-.Language i {
-  width: 20px;
+.Articles a:hover {
+  cursor: pointer;
+  text-decoration: underline;
 }
+.Language i {
+  font-size: 18px;
+  width: 20px;
+  color: black !important ;
+  
+}
+.Language input{
+    width: 0;
+    outline: none;
+    border: none;
+    font-weight: 500;
+    transition: 0.8s;
+    background: transparent;
+    border-radius: 10px;
+
+}
+.Language:hover input{
+width: 300px;
+border: solid 1px white;
+background-color: black;
+color: white;
+
+}
+
 .English {
   text-align: center !important;
   margin-top: 80px;
@@ -46,6 +75,7 @@
 }
 .Personalization h1:hover {
   text-decoration: underline;
+  cursor: pointer;
 }
 .by {
   font-size: 18px;
@@ -55,6 +85,7 @@
   font-weight: 700;
 }
 .Gerry:hover {
+  cursor: pointer;
   text-decoration: underline;
 }
 
@@ -64,6 +95,7 @@
 }
 .Comments:hover {
   text-decoration: underline;
+  cursor: pointer;
 }
 .valued {
   width: 1100px;
@@ -76,48 +108,126 @@
 .Practice {
   width: 1100px;
   text-align: center;
-  
-  
 }
-.Practice h1{
-    font-weight: 900;
+.Practice h1 {
+  font-weight: 900;
 }
-.Practice:hover {
+.Practice h1:hover {
+  cursor: pointer;
   text-decoration: underline;
 }
-.Ste{
-   color: #2455C3;
+.Ste {
+  color: #2455c3;
 }
-.Ste:hover{
-    text-decoration: underline;
+.Ste:hover {
+  text-decoration: underline;
+  cursor: pointer;
 }
-.WebFebruary{
-    font-weight: 200;
+.WebFebruary {
+  font-weight: 200;
 }
-.development{
-    width: 1100px;
-    background-color:#F0F0F0;
-    border: solid #F0F0F0;
-    border-radius: 10px;
-    padding:  10px ;
+.development {
+  width: 1100px;
+  background-color: #f0f0f0;
+  border: solid #f0f0f0;
+  border-radius: 10px;
+  padding: 10px;
 }
-.Sponsership{
-    justify-content: space-evenly;
-    background-color: #E8E8E8;
-    border: solid  #E8E8E8;
-    height: 60px;
+.Sponsership {
+  justify-content: space-evenly;
+  background-color: #e8e8e8;
+  border: solid #e8e8e8;
+  height: 60px;
 }
-.Sponsership a{
-font-weight: 700;
-color: black;
-padding-left: 19px;
-text-decoration: none;
+.Sponsership a {
+  font-weight: 700;
+  color: black;
+  padding-left: 19px;
+  text-decoration: none;
 }
-.Sponsership a:hover{
-text-decoration: none;
-color: black;
+.Sponsership a:hover {
+  text-decoration: none;
+  color: black;
 }
-.Masthead a:hover{
-text-decoration: underline;
-color: black;
+.Masthead a:hover {
+  text-decoration: underline;
+  color: black;
+}
+.web {
+  margin: 0 5px;
+  width: 30% !important;
+}
+.more h5:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.supply:hover {
+  text-decoration: underline lightgray;
+  cursor: pointer;
+}
+.Facebook a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.Copyright {
+  background-color: #f0f0f0;
+}
+.powered {
+  flex: 2;
+  margin-left: 70px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.powered p {
+  padding-left: 10px;
+}
+.Permissions {
+  flex: 2;
+}
+.powered a {
+  display: block;
+  text-decoration: none;
+  color: #2455c3;
+  font-weight: 700;
+}
+.save {
+  font-weight: 700;
+}
+
+.powered:hover {
+  background-color: white;
+  cursor: pointer;
+}
+.Fonts {
+  justify-content: space-around;
+  background-color: #ececec;
+}
+
+.Proudly a {
+  text-decoration: none;
+  color: black;
+  padding: 12px;
+}
+.Proudly a:hover {
+  text-decoration: underline;
+  color: black;
+}
+.privacy {
+  font-weight: 700;
+}
+.Bundle{
+    margin-left: 40px;
+    border-radius: 100%;
+    background-color:#CCCCCC;
+}
+.Fonts img:hover{
+cursor: pointer;
+}
+.PEOPLE{
+    background-color: #EAEAEA;
+    
+}
+.PEOPLE h1{
+    font-size: 64px;
 }
