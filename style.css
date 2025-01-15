@@ -226,7 +226,7 @@
   font-size: 64px;
 }
 
-@media screen and (min-width:560px) and (max-width: 786px) {
+@media screen and (min-width: 600px) and (max-width: 786px) {
   .header {
     width: 100% !important;
     height: 41px;
@@ -252,7 +252,7 @@
     margin-top: 40px;
   }
   .English img {
-    width: 600px;
+    width: 500px;
   }
   .May {
     margin-top: 25px;
@@ -333,7 +333,8 @@
     width: 100% !important;
   }
   .Proudly p {
-    font-size: 15px;
+    font-size: 14px;
+    padding-left: 23px;
   }
   .privacy {
     font-size: 15px;
@@ -344,5 +345,137 @@
   }
   .PEOPLE h1 {
     font-size: 40px;
+  }
+}
+
+@media screen and (min-width: 787px) and (max-width: 1024px) {
+  .header {
+    width: 100% !important;
+    height: 41px;
+    padding: 5px;
+    align-items: center;
+    font-size: 12px;
+  }
+  .Articles a {
+    margin-left: 0px !important;
+    padding: 3px;
+  }
+  .Language:hover input {
+    width: 150px;
+  }
+  .APART h1 {
+    font-size: 90px;
+  }
+  .APART {
+    text-align: center;
+    margin-top: 30px;
+  }
+  .English {
+    margin-top: 40px;
+  }
+  .English img {
+    width: 700px;
+  }
+  .May {
+    margin-top: 25px;
+  }
+  .May h4 {
+    font-size: 40px;
+  }
+  .NEW {
+    font-size: 30px;
+  }
+  .Language {
+    margin-right: 4px !important;
+  }
+  .Personalization h1 {
+    font-size: 45px;
+    text-align: center;
+  }
+  .Gerry {
+    font-size: 30px;
+  }
+  .Comments {
+    font-size: 30px;
+  }
+  .valued {
+    width: 100%;
+  }
+  .valued p {
+    font-size: 25px;
+  }
+  .Personalization p {
+    font-size: 30px !important;
+  }
+  .Practice {
+    width: 100%;
+  }
+  .Practice h1 {
+    font-size: 45px;
+  }
+  .Practice p {
+    font-size: 30px;
+  }
+  .stakeholders h2 {
+    font-size: 50px;
+  }
+  .form {
+    margin-right: 0px;
+  }
+  .col-md-6 {
+    width: 100% !important;
+    flex: 0 0 auto !important;
+    /* margin-top: 10px; */
+    margin-bottom: 10px;
+  }
+  .development {
+    width: 80% !important;
+    padding: 10px;
+  }
+  .Sponsership {
+    height: 100px;
+    width: 100%;
+  }
+  .Facebook {
+    flex-wrap: wrap;
+    margin-bottom: 30px !important;
+  }
+  .web h5 {
+    font-size: 27px;
+  }
+
+  .web p {
+    font-size: 20px;
+  }
+  .development p {
+    font-size: 23px;
+  }
+
+  .Copyright {
+    width: 100%;
+  }
+  .Copyright p {
+    font-size: 19px;
+  }
+  .powered img {
+    width: 170px;
+    height: 144px;
+  }
+  .Fonts {
+    width: 100% !important;
+  }
+  .Proudly p {
+    font-size: 19px;
+    padding-left: 23px;
+  }
+  .privacy {
+    font-size: 15px;
+  }
+  .Hosted img {
+    width: 50px;
+    height: 45px;
+  }
+  .PEOPLE h1 {
+    font-size: 60px;
   }
 }
