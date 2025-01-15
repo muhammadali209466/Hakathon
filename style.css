@@ -19,27 +19,22 @@
   text-decoration: underline;
 }
 .Language i {
-  font-size: 18px;
-  width: 20px;
   color: black !important ;
-  
 }
-.Language input{
-    width: 0;
-    outline: none;
-    border: none;
-    font-weight: 500;
-    transition: 0.8s;
-    background: transparent;
-    border-radius: 10px;
-
+.Language input {
+  width: 0;
+  outline: none;
+  border: none;
+  font-weight: 500;
+  transition: 0.8s;
+  background: transparent;
+  border-radius: 10px;
 }
-.Language:hover input{
-width: 300px;
-border: solid 1px white;
-background-color: black;
-color: white;
-
+.Language:hover input {
+  width: 300px;
+  border: solid 1px white;
+  background-color: black;
+  color: white;
 }
 
 .English {
@@ -216,18 +211,138 @@ color: white;
 .privacy {
   font-weight: 700;
 }
-.Bundle{
-    margin-left: 40px;
-    border-radius: 100%;
-    background-color:#CCCCCC;
+.Bundle {
+  margin-left: 40px;
+  border-radius: 100%;
+  background-color: #cccccc;
 }
-.Fonts img:hover{
-cursor: pointer;
+.Fonts img:hover {
+  cursor: pointer;
 }
-.PEOPLE{
-    background-color: #EAEAEA;
-    
+.PEOPLE {
+  background-color: #eaeaea;
 }
-.PEOPLE h1{
-    font-size: 64px;
+.PEOPLE h1 {
+  font-size: 64px;
+}
+
+@media screen and (min-width:560px) and (max-width: 786px) {
+  .header {
+    width: 100% !important;
+    height: 41px;
+    padding: 5px;
+    align-items: center;
+    font-size: 12px;
+  }
+  .Articles a {
+    margin-left: 0px !important;
+    padding: 3px;
+  }
+  .Language:hover input {
+    width: 110px;
+  }
+  .APART h1 {
+    font-size: 70px;
+  }
+  .APART {
+    text-align: center;
+    margin-top: 30px;
+  }
+  .English {
+    margin-top: 40px;
+  }
+  .English img {
+    width: 600px;
+  }
+  .May {
+    margin-top: 25px;
+  }
+  .May h4 {
+    font-size: 33px;
+  }
+  .NEW {
+    font-size: 24px;
+  }
+  .Language {
+    margin-right: 4px !important;
+  }
+  .Personalization h1 {
+    font-size: 40px;
+    text-align: center;
+  }
+  .Gerry {
+    font-size: 24px;
+  }
+  .Comments {
+    font-size: 24px;
+  }
+  .valued {
+    width: 100%;
+  }
+  .valued p {
+    font-size: 22px;
+  }
+  .Personalization p {
+    font-size: 24px;
+  }
+  .Practice {
+    width: 100%;
+  }
+  .Practice h1 {
+    font-size: 40px;
+  }
+  .Practice p {
+    font-size: 24px;
+  }
+  .stakeholders h2 {
+    font-size: 40px;
+  }
+  .form {
+    margin-right: 0px;
+  }
+  .col-md-6 {
+    width: 100% !important;
+    flex: 0 0 auto !important;
+    /* margin-top: 10px; */
+    margin-bottom: 10px;
+  }
+  .development {
+    width: 80% !important;
+    padding: 5px;
+  }
+  .Sponsership {
+    height: 100px;
+    width: 100%;
+  }
+  .Facebook {
+    flex-wrap: wrap;
+    margin-bottom: 30px !important;
+  }
+
+  .Masthead {
+    flex-wrap: wrap;
+  }
+  .Copyright {
+    width: 100%;
+  }
+  .powered img {
+    width: 150px;
+    height: 124px;
+  }
+  .Fonts {
+    width: 100% !important;
+  }
+  .Proudly p {
+    font-size: 15px;
+  }
+  .privacy {
+    font-size: 15px;
+  }
+  .Hosted img {
+    width: 50px;
+    height: 45px;
+  }
+  .PEOPLE h1 {
+    font-size: 40px;
+  }
 }
